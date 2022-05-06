@@ -40,10 +40,10 @@
                     </div>
                 </nav>
                 <div class="container shadow py-0">
-                    <h3>Entrantes</h3>
+                    <h1>Entrantes</h1>
                     <xsl:for-each select="entrantes/categoria">
                         
-                        <p><xsl:value-of select="@nombre" /></p>
+                        <h3><xsl:value-of select="@nombre" /></h3>
                         <div class="row">
                             <xsl:for-each select="entrante">
                                 <div class=" col-lg-4  col-md-6  d-flex mt-1 mb-2">
